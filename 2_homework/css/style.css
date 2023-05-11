@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #373737;
+    letter-spacing: 2.4px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1145px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.header nav ul li {
+    display: inline-block;
+    padding: 26px 36px;
+    color: #FF0000;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+}
+
+.header nav ul li a {
+    color: #FF0000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.main__banner {
+    background: url('../images/banner_phone.png') center/cover no-repeat;
+    height: 789px;
+    margin-bottom: 48px;
+}
+
+.main__article h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 3.3px;
+    text-transform: uppercase;
+    max-width: 774px;
+    margin: 0 auto 38px;
+}
+
+.main__article p {
+    text-align: center;
+}
+
+.main__article__description {
+    margin-bottom: 28px;
+}
+
+.main__article__info {
+    margin-bottom: 66px;
+}
+
+.main__article__btn {
+    display: inline-block;
+    background: #FF0000;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1;
+    padding: 18px 42px;
+}
+
+.main__article__controls {
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.footer {
+    text-align: right;
+}
+
+.footer__copyright {
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 2.4px;
+    padding: 40px 40px 30px;
+}
