@@ -1,0 +1,28 @@
+@import "reset.css";
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+main {
+    background-color: aliceblue;
+    width: 100vw;
+    min-height: calc(100vh - 60px);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    font-size: 20px;
+}
+
+.box span {
+    font-size: 2rem;
+}
