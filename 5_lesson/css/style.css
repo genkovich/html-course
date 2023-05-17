@@ -1,0 +1,16 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&display=swap');
+@import './partials/header.css';
+@import './partials/products.css';
+@import './partials/banner.css';
+@import './partials/gallery.css';
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    max-width: calc(1280px + 30px);
+    margin: 0 auto;
+    padding: 0 15px;
+}
