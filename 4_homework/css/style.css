@@ -137,6 +137,14 @@ ul {
     height: 530px;
 }
 
+.main__section_banner-image {
+    transition: 0.3s;
+}
+
+.main__section_banner-image:hover {
+    transform: scale(1.1);
+}
+
 .main__section_content {
     font-size: 18px;
     line-height: 1.4;
